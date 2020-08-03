@@ -12,8 +12,8 @@ import (
 type vinResponse struct {
 	Count          int         `json:"Count"`
 	Meaasge        string      `json:"Message"`
-	SearchCriteria string      `json:"SearchCriteria`
-    Attributes     []Attribute `json:"Results"`
+	SearchCriteria string      `json:"SearchCriteria"`
+	Attributes     []Attribute `json:"Results"`
 }
 
 // Attribute for a vehicle
