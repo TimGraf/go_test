@@ -61,10 +61,10 @@ func main() {
 	var vehicleType = findStringAttribute(response.Attributes, "Vehicle Type")
 	var driveType   = findStringAttribute(response.Attributes, "Drive Type")
 
-	log.Println(year)
-	log.Println(make)
-	log.Println(model)
-	log.Println(trim)
-	log.Println(vehicleType)
-	log.Println(driveType)
+	log.Println(fmt.Sprintf("Year:  %s", year))
+	log.Println(fmt.Sprintf("Make:  %s", make))
+	log.Println(fmt.Sprintf("Model: %s", model))
+	log.Println(fmt.Sprintf("Trim:  %s", trim))
+	log.Println(fmt.Sprintf("Type:  %s", vehicleType))
+	log.Println(fmt.Sprintf("Drive: %s", driveType))
 }
